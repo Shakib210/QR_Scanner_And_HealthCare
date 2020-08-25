@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">QR Scanner and Healthcare</string>
+    <string name="app_name2">QR Scanner</string>
+    <string name="app_name3">Disease Symptoms</string>
+    <string name="app_name4">Primary Treatment</string>
+    <string name="app_name5">Health Tips</string>
+    <string name="app_name6">About</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="take_barcode_picture">Take Barcode Picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">OPEN CAMERA</string>
+    <string name="send_email">SEND EMAIL</string>
+
+
+    <string-array name="primary">
+
+        <item> Primary treatment for dengue</item>
+        <item>Snake bites</item>
+        <item>Treating minor burns</item>
+        <item>Heart attack</item>
+        <item>Heat Stroke</item>
+        <item>Suddenly Stop breathing</item>
+        <item>After Break Bones</item>
+        <item>After Electric shock</item>
+        <item>Low blood pressure</item>
+        <item>High blood pressure</item>
+        <item>Treatment for abdominal pain</item>
+        <item>Performing CPR</item>
+
+    </string-array>
+
+    <string name="dengue">There is no specific medicine to treat dengue infection. If you think you may have dengue fever, you should use pain relievers with acetaminophen and avoid medicines with aspirin, which could worsen bleeding. You should also rest, drink plenty of fluids, and see your doctor. If you start to feel worse in the first 24 hours after your fever goes down, you should get to a hospital immediately to be checked for complications.</string>
+    <string name="snake">Use a makeshift stretcher to carry the person to a place where transport is available to take them to a health facility. Never use a tight arterial tourniquet. The Australian Pressure Immobilization Bandage (PIB) Method is only recommended for bites by neurotoxic snakes that do not cause local swelling.</string>
+    <string name="burns">Immediately immerse the burn in cool tap water or apply cold, wet compresses. Do this for about 10 minutes or until the pain subsides. Apply petroleum jelly two to three times daily. Do not apply ointments, toothpaste or butter to the burn, as these may cause an infection.</string>
+    <string name="heart">Medications given to treat a heart attack might include: Aspirin. The 999 operator might tell you to take aspirin, or emergency medical personnel might give you aspirin immediately. Aspirin reduces blood clotting, thus helping maintain blood flow through a narrowed artery.</string>
+    <string name="stroke">If you suspect heatstroke, call 999 or your local emergency number. Then immediately move the person out of the heat, remove excess clothing, and cool him or her by whatever means available, for example: Place in a tub of cool water or a cool shower.</string>
+    <string name="breathing">Check whether the person is breathing. If they’re not breathing, have someone call 999 or your local emergency services immediately and prepare to begin CPR. If they’re breathing, position the person on their back.</string>
+    <string name="bones">If you have a displaced fracture, your doctor might need to move the pieces back into position (reduction). Depending on the amount of pain and swelling you have, you might need a muscle relaxant, a sedative or even a general anesthetic before this procedure.</string>
+    <string name="shock">Begin CPR if the person shows no signs of circulation, such as breathing, coughing or movement. Try to prevent the injured person from becoming chilled. Apply a bandage. Cover any burned areas with a sterile gauze bandage, if available, or a clean cloth.</string>
+    <string name="hblood">You can lower your blood pressure with the following lifestyle changes: Losing weight if you are overweight or obese. Quitting smoking. Eating a healthy diet, including the DASH diet (eating more fruits, vegetables, and low fat dairy products, less saturated and total fat)</string>
+    <string name="lblood">For many people, chronic low blood pressure can be effectively treated with diet and lifestyle changes. Depending on the cause of your symptoms, your doctor may tell you to increase your blood pressure by making these simple changes: Eat a diet higher in salt. Drink lots of nonalcoholic fluids</string>
+    <string name="treatment">Abdominal pain from gas might be relieved by lying face down. Peppermint tea might relieve the symptoms, but the patient should resist eating until the bloating subsides or a good bowel movement takes place. Abdominal pain from a virus should be treated with rest and clear fluids in 1-2 oz doses. Water should be taken at room temperature without ice. Avoid milk, juice carbonated beverages, coffee and sports drinks. Soft drinks might be more palatable than water, but should be served flat and closer to room temperature than cold.</string>
+    <string name="cpr">Lay the person on their back on a firm surface.\n
+Kneel next to their neck and shoulders.\n
+Place the heel of your hand over the center of their chest.\n Put your other hand directly over the first one and interlace your fingers. Make sure that your elbows are straight and move your shoulders up above your hands.\n
+Using your upper body weight, push straight down on their chest at least 1.5 inches for children or 2 inches for adults. Then release the pressure.
+Repeat this procedure again up to 100 times per minute. These are called chest compressions.</string>
+
+
+
+    <string-array name="care">
+
+        <item>Don’t drink sugar calories</item>
+        <item>Eat nuts</item>
+        <item>Avoid processed junk food</item>
+        <item>Don’t fear coffee</item>
+        <item>Eat fatty fish</item>
+        <item>Get enough sleep</item>
+        <item> Drink some water, especially before meals</item>
+        <item>Don’t overcook </item>
+        <item>Avoid bright lights before sleep</item>
+        <item>Make sure to eat enough protein</item>
+        <item>Do some cardio</item>
+        <item>Don’t smoke or do drugs</item>
+        <item>Don’t eat a lot of refined carbs</item>
+        <item>Don’t fear saturated fat</item>
+        <item>Lift heavy things</item>
+        <item>Use plenty of herbs and spices</item>
+        <item> If you have excess belly fat, get rid of it</item>
+        <item>Don’t go on a diet</item>
+        <item>Eat eggs, yolk and all</item>
+
+
+    </string-array>
+
+
+</resources>

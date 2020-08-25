@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#3FB5B1"
+    android:gravity="center">
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            >
+            <android.support.v7.widget.CardView
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/scan"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/circle_ackground_background"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/scan"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="QR Scanner"
+
+                        android:textStyle="bold"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/primary"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@drawable/pink"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/treatment"
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Primary Treatment"
+
+                        android:textStyle="bold"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            >
+            <android.support.v7.widget.CardView
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:id="@+id/symptoms"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@color/green"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/airport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:text="Disease Symptoms"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:id="@+id/tips"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@color/blue"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/restaurant"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Health Tips"
+
+                        android:textStyle="bold"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
